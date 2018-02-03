@@ -69,5 +69,5 @@ app.get('/bad', (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log('server is running at port 3000...\nhttp://localhost:3000')
+    console.log(`server is running at port ${PORT}...\nhttp://localhost:${PORT}`)
 });
