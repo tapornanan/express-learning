@@ -35,9 +35,9 @@ app.use((req, res, next) => {
     })
 })
 
-app.use((req, res, next) => {
-    res.render('maintainance.hbs');
-})
+// app.use((req, res, next) => {
+//     res.render('maintainance.hbs');
+// })
 
 // middleware serve as static cotents.
 app.use(express.static(__dirname + '/public'))
